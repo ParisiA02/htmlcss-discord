@@ -13,7 +13,7 @@ header{
     background-color: #225EE9;
 }
 .container{
-    width: 75%;
+    width: 60%;
     margin: 0 auto;
     padding-top: 20px;
 }
@@ -91,36 +91,58 @@ h1{
     color: white;
     background-color: rgb(35, 39, 42);
 }
-/* styling first section */
 .clear-fix::after{
     content: "";
     display: table;
     clear: both;
 }
 .title{
+    width: 25%;
+    font-size: 40px;
+    font-weight: bold;
+}
+/* styling first section */
+.firstsection.title{
     text-align: left;
 }
 .first-section{
-    margin:60px 0;
+    margin: 60px 0;
     width: 100%;
-    float: left;
 }
 .firstsection-image{
     width: 50%;
     float: left;
     position: relative;
 }
-.title{
-    width: 20%;
-    font-size: 40px;
-    font-weight: bold;
-}
 .firstsection{
-    width: 20%;
-    float: left;
+    width: 25%;
+    float: right;
     position: relative;
-    margin: 30px 50px 0 80px;
+    margin: 30px 50px 0 0;
 }
 .firstsection.text{
+    font-size: 20px;
+}
+/* styling second section */
+.second-section{
+    margin: 0 0 60px 0;
+    width: 100%;
+}
+.secondsection-image{
+    width: 50%;
+    float: right;
+    position: relative;
+}
+.secondsection.title{
+    text-align: left;
+    float: left;
+}
+.secondsection{
+    width: 30%;
+    float: left;
+    position: relative;
+    margin: 30px 0 0 0;
+}
+.secondsection.text{
     font-size: 20px;
 }
