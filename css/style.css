@@ -91,6 +91,7 @@ h1{
     color: white;
     background-color: rgb(35, 39, 42);
 }
+/* styling first section */
 .clear-fix::after{
     content: "";
     display: table;
@@ -100,16 +101,26 @@ h1{
     text-align: left;
 }
 .first-section{
+    margin:60px 0;
     width: 100%;
     float: left;
 }
-.first-section-image{
+.firstsection-image{
     width: 50%;
     float: left;
     position: relative;
 }
+.title{
+    width: 20%;
+    font-size: 40px;
+    font-weight: bold;
+}
 .firstsection{
-    width: 50%;
-    float: right;
+    width: 20%;
+    float: left;
     position: relative;
+    margin: 30px 50px 0 80px;
+}
+.firstsection.text{
+    font-size: 20px;
 }
