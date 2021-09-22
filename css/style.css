@@ -38,7 +38,7 @@ header{
 }
 /* button style */
 .button{
-    padding: 15px 20px;
+    padding: 10px 15px;
     margin: 0 10px;
     border-radius:30px;
     border: none;
@@ -217,13 +217,11 @@ footer{
     top: 30px;
     left: 0;
 }
-.registrati{
-    padding: 10px;
-    border-radius: 20px;
-    border: none;
+.button.registrati{
     color: white;
     background-color: rgb(114, 137, 218);
     position: absolute;
     top: 30px;
     right: 0;
+    line-height: 15px;
 }
