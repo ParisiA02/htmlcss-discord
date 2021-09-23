@@ -112,12 +112,10 @@ h1{
 .firstsection-image{
     width: 50%;
     float: left;
-    position: relative;
 }
 .firstsection{
     width: 25%;
     float: right;
-    position: relative;
     margin: 30px 50px 0 0;
 }
 .firstsection.text{
@@ -131,7 +129,6 @@ h1{
 .secondsection-image{
     width: 50%;
     float: right;
-    position: relative;
 }
 .secondsection.title{
     text-align: left;
@@ -140,7 +137,6 @@ h1{
 .secondsection{
     width: 30%;
     float: left;
-    position: relative;
     margin: 30px 0 0 0;
 }
 .secondsection.text{
@@ -160,7 +156,6 @@ footer{
 /* styling the first column */
 .column-1{
     float: left;
-    position: relative;
 }
 .footersection1 .title{
     color: rgb(114, 137, 218);
@@ -193,7 +188,7 @@ footer{
 .column-2{
     margin-right: 65px;
     float: left;
-    position: relative;
+
     color: white;
 }
 .ul-column-2{
