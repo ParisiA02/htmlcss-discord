@@ -205,18 +205,14 @@ footer{
 /* styling the second section of the footer */
 .footersection2{
     width: 100%;
-    position: relative;
+    padding-top: 20px;
 }
 .footer-logo{
-    position: absolute;
-    top: 30px;
-    left: 0;
+    float: left;
 }
 .button.registrati{
+    float: right;
     color: white;
     background-color: rgb(114, 137, 218);
-    position: absolute;
-    top: 30px;
-    right: 0;
     line-height: 15px;
 }
